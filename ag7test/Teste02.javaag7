@@ -1,0 +1,31 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package teste02;
+
+/**
+ *
+ * @author Admin
+ */
+//declaraçao de classe
+public class Teste02 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+      // TODO code application logic here
+      
+      int a=5, b=10, s=0, m=0, sb=0, d=0;
+      s=a+b;
+      m=a/b;
+      sb=a*b;
+      d=b-a;
+      System.out.println("a soma e:"+s);
+      System.out.println("a divisao e:"+m);
+      System.out.println("a multiplicacao e:"+sb);
+      System.out.println("a subtraçao e:"+d);
+    }
+    
+}
